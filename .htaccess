@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^xtremex.io [NC]
+RewriteRule ^(.*)$ http://www.xtremex.io/$1 [L,R=301]
